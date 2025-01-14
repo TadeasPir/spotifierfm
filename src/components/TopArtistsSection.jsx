@@ -36,4 +36,5 @@ const TopArtistsSection = () => {
   );
 };
 
+
 export default TopArtistsSection;

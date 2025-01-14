@@ -18,6 +18,7 @@ const UserRecentlyPlayed = () => {
     fetchRecentlyPlayed();
   }, []);
 
+  
   return (
     <Box sx={{ py: 4 }}>
       <Typography variant="h4" align="center" gutterBottom>
