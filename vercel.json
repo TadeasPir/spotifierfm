@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/callback", "dest": "/index.html" },
+    { "src": "/dashboard", "dest": "/index.html" },
+    { "src": "/trends", "dest": "/index.html" },
+    { "src": "/artists", "dest": "/index.html" },
+    { "src": "/albums", "dest": "/index.html" },
+    { "src": "/genres", "dest": "/index.html" },
+    { "src": "/recent", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
